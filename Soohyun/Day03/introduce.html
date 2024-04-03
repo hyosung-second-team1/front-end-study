@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name = "자기소개" content="About me">
+        <meta name = "author" content="Soohyun Kwon">
+        <meta http-equiv="refresh" content="30">
+        <title>About Me</title>
+        <!--<style>
+            body {
+                background-color: whitesmoke;
+                color: black;
+            }
+        </style>-->
+        <style>
+            body {
+                background-image: url("풍경.jpg");
+                background-repeat: no-repeat;
+                background-color: #FFEE99;
+                background-size: cover;
+                width: 32vw;
+                height: 200px;
+                margin-bottom: 2vw;
+                float: left;
+            }
+            div:not(:nth-of-type(3n+1)) {
+                margin-left: 2vw;
+            }
+
+            /* section 요소의 자식요소 중 article 요소 */
+            section > article {
+                background-color: white;
+                background-position: left;
+                margin: 10px auto;
+                border: 1px solid #000000;
+                padding: 5px;
+                width: 800px;
+                height: auto;
+            }
+            .inline-block {
+                display: inline-block;
+                vertical-align: middle; /* inline-block 요소 수직 정렬 */
+                border: 3px solid #73AD21;
+                font-size: 16px;
+              }
+              .box1 {
+                width: auto;
+                height: 70px;
+              }
+          </style>
+    </head>
+    <body>
+        <form action="http://127.0.0.1:5500/introduce.html" method = "get">
+            ID: <input type="text" name="id" value="soo123"><br>
+            username: <input type="text" name="username" value="Soohyun"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <section class="header">
+            <h1>Soohyun | 탐구하는 것을 좋아하는 개발자</h1>
+            <h3>사유, 탐구, 공상을 좋아하는 개발자 권수현입니다.</h3>
+        </section>
+        <br/>
+        <section class="main1">
+            <h2>About Me</h2>
+            <img src="내사진.jpg" width="240" height="280" align="left">
+            <h3 class="text-bold">&emsp;Contact.</h3>
+            <p>&emsp;Email. kwonsoohyun97@gmail.com</p>
+            <p>&emsp;Phone. 010-9422-6677</p>
+            <h3 class="text-bold">&emsp;Channel.</h3>
+            <p>&emsp;Blog. &emsp;https://velog.io/@b_yak_e/posts</p>
+            <p>&emsp;GitHub. https://github.com/soo01234</p>
+            <br>
+            <!-- <a href = "https://velog.io/@b_yak_e/posts">&emsp;&emsp;Blog. </a> -->
+            <!-- <p style="display:inline;">https://velog.io/@b_yak_e/posts</p> -->
+            <!-- <a href = "https://github.com/soo01234">&emsp;GitHub. </a> -->
+            <!-- <p style="display:inline;">https://github.com/soo01234</p> -->
+            <p>어릴 적부터 공상을 좋아하던 아이는 커서</p>
+            <p>상상을 현실로 꺼내와 펼쳐놓는 사람이 되었습니다.</p>
+            <p>끊임없이 사유하고, 세상을 탐구하고 있습니다.</p>
+            <p>사람이 살아가는데 필요한 것을 만드는 것.</p>
+            <p>혹은 더 나은 세상으로 만드는 데 공헌하는 것.</p>
+            <p>제가 추구하고, 나아가고자 하는 목표입니다.</p>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section class="main2">
+            <h2>교육</h2>
+            <article>
+                <h3>포스코 청년 AI Big Data 아카데미</h3>
+                <p>기간: 2023.07 - 2023.09</p>
+            </article>
+            <article>
+                <h3>효성FMS 풀스택 교육</h3>
+                <p>기간: 2024.02 - 2024.08</p>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section class="main3">
+            <h2>학력</h2>
+            <article>
+                <h3>영동일 고등학교 <small>졸업</small></h3>
+                <p>2013.03 - 2016.02</p>
+            </article>
+            <article>
+                <h3>동덕여자대학교 <small>경제학과 졸업</small></h3>
+                <p>2020.03 - 2023.08</p>
+            </article>
+        </section>
+        <br>
+        <br>
+        <section class="main4">
+            <h2>취미 및 관심사</h2>
+            <table border="1">
+                <tr>
+                    <th>취미</th>
+                    <th>독서하기</th>
+                    <th>베이스 연주하기</th>
+                    <th>혼자 여행하기</th>
+                    <th>산책하기</th>
+                    <th>미적분 문제풀기</th>
+                </tr>
+                <tr>
+                    <th>관심사</th>
+                    <th>글쓰기</th>
+                    <th>테크블로그 살펴보기</th>
+                    <th>원서 숙독하기</th>
+                    <th>사진 찍기</th>
+                    <th>마라톤 10KM</th>
+                </tr>
+            </table>
+        </section>
+        <footer class="footer">
+            <p></p>
+        </footer>
+    </body>
+</html>

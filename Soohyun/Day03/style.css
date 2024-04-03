@@ -1,0 +1,179 @@
+h1 { 
+    text-align: center;
+    font-size: 200%;
+}
+h2 { 
+    text-align: center;
+    font-size: 150%; 
+}
+h3 { 
+    text-align: center; 
+    font-size: 125%;
+}
+p { 
+    text-align: center; 
+    font-size: 100%;
+}
+
+
+
+
+
+
+
+/* 글 가운데로 */
+.text-center { text-align: center; }
+/* 글씨 크게 */
+.text-large { font-size: 200%; }
+/* 글씨 red */
+.text-red { color: red; }
+/* 글씨 blue */
+.text-blue { color: blue; }
+/* <h3 class="text-red">&emsp;Contact.</h3>  로 html 에서 사용하면 됨 */
+
+/* 볼드체 */
+.text-bold { font-weight: bold; }
+
+/* a 요소 중에 href 어트리뷰트를 갖는 모든 요소 */
+/* a[href] { color: red; } */
+
+
+/* a 요소 중에 target 어트리뷰트의 값이 "_blank"인 모든 요소 */
+/* a[target="_blank"] { color: red; } */
+
+/* <a href="http://www.google.com" target="_blank">google.com</a><br>   html 에서 이렇게 적용하면 됨 */
+
+
+/* href 폰트 색깔 지정 */
+.href-grey { color: rgba(192,192,192,0.3); }
+
+/* 
+div {
+    font-size: 16px; /* px 은 절대값 */
+    font-weight: bold;
+    padding: 2em;  /* 14px * 2 = 28px */ /* em 은 상대값 */
+    /* border: 25px solid navy; */
+    background-color: #f8efed;
+} */
+
+/* 대부분 브라우저의 폰트 사이즈 기본값은 16px, 1em, 100% */
+
+.box1 {
+    background-color: #f8efed;
+    font-size: 16px;
+}
+
+
+/* 이미지 출력 구획 나누기 */
+.example1 {
+    background-position: top;
+}
+.example2 {
+    background-position: bottom;
+}
+.example3 {
+    background-position: center;
+}
+.example4 {
+    background-position: left;
+}
+.example5 {
+    background-position: right;
+}
+
+
+/* 폰트 */
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cursive {
+    font-family: cursive;
+}
+
+
+
+
+/* */
+.example0 {
+    /* 배경색의 지정: 콘텐츠 영역과 패딩 영역에 적용된다. */
+    background-color: white;
+    /* 콘텐츠 영역의 너비 */
+    width: 300px;
+    /* 패딩 영역의 두께 */
+    padding: 10px;
+    /* 테두리: 두께 형태 색상 */
+    border: 25px solid navy;
+    /* 마진 영역의 두께 */
+    margin: 25px;
+}
+
+.footer {
+    background-image: url("풍경.jpg");
+    width: auto;
+    height: 50px;
+    opacity: 0.8;
+}
+
+.header {
+    background-color: rgba(192,192,192,0.3);
+    /*background-image: url("풍경사진.jpg");*/
+    margin: 0 auto;
+    border: 1px solid beige;
+    padding: 5px;
+    width: 200%;
+    height: auto;
+    /*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+}
+
+.main1 {
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 1px solid aliceblue;
+    padding: 5px;
+    width: 200%;;
+    height: auto;
+}
+
+.main2 {
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 1px solid aliceblue;
+    padding: 5px;
+    width: 200%;;
+    height: auto;
+}
+
+.main3 {
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 1px solid aliceblue;
+    padding: 5px;
+    width: 200%;;
+    height: auto;
+}
+
+.main4 {
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 1px solid aliceblue;
+    padding: 5px;
+    width: 200%;;
+    height: auto;
+    
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 800px;
+    margin: auto;
+    font-size: 125%;
+}
+
