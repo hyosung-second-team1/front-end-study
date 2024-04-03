@@ -1,0 +1,29 @@
+body {
+    font-family: serif
+}
+
+header {
+    border: 3px solid black;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+section {
+    border: 3px solid black;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+footer {
+    border: 3px solid black;
+    margin: 10px 20px;
+    padding: 20px;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/900/152/desktop-wallpaper-pokemon-full-and-backgrounds-pokemon-1920x1080.jpg");
+    background-size: cover;
+}
+
+section > article {
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
