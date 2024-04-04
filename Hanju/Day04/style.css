@@ -2,7 +2,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 
 section {
@@ -24,15 +23,20 @@ button {
 }
 
 .result-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   margin-bottom: 20px;
   background-color: #e69893;
   border-radius: 10px;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .input-section {
   height: 400px;
-  padding: 25px;
+  padding: 15px;
   background-color: white;
   border-radius: 10px;
   display: flex;
@@ -57,5 +61,18 @@ button {
 }
 
 .shallow-btn {
-  width: 45%;
+  width: 47%;
+}
+
+.com-btn {
+  background-color: #e69893;
+}
+
+.oper-btn {
+  color: white;
+  background-color: #313132;
+}
+
+.num-btn {
+  background-color: #bcb2b2;
 }
