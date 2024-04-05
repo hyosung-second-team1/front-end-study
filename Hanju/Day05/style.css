@@ -1,0 +1,24 @@
+section {
+  width: 350px;
+  height: 600px;
+  background-color: #1f5878;
+}
+
+button {
+  height: 60px;
+}
+
+.result-section {
+  height: 120px;
+  background-color: #e69893;
+}
+
+.input-section {
+  height: 400px;
+  background-color: white;
+}
+
+.btn-command {
+  background-color: #e69893 !important;
+}
+
