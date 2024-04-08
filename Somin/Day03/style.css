@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+* {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-container,
+.exp-container,
+.school-container,
+.hobby-container,
+.footer-container {
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 15px;
+  margin: 1rem 0;
+}
+
+.profile-box {
+  display: flex;
+}
+
+.profile-box > img {
+  border-radius: 15px;
+  width: 300px;
+}
+
+.footer-container {
+  color: white;
+  background-image: url("https://www.shutterstock.com/ko/blog/wp-content/uploads/sites/17/2020/12/shutterstock_776206048.jpg");
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+}
