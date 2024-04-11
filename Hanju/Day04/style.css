@@ -51,7 +51,7 @@ button {
   justify-content: space-between;
 }
 
-.row {
+.btn-row {
   display: flex;
   justify-content: space-between;
 }
