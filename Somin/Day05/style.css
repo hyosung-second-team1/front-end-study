@@ -1,0 +1,16 @@
+.row {
+  margin: 1rem 0;
+}
+
+.total-container {
+  width: 450px;
+}
+
+.shadow-board {
+  background-color: #fcf6f5;
+  box-shadow: 14px 20px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+.white-board {
+  background-color: #ffffff;
+}
