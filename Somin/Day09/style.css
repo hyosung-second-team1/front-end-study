@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+}
+
+.todo-list {
+  text-decoration: none;
+}
+
+.todo-content {
+  display: flex;
+  align-items: center;
+}
+
+.todo-span {
+  padding: 3%;
+}
+
+.done {
+  text-decoration: line-through;
+  color: black;
+}
+
+.delete {
+  color: red;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
